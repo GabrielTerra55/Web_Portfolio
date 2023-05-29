@@ -8,7 +8,7 @@ body{
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	/* background-color: #07054a; */
-	background-image: linear-gradient(135deg,#3502b8, #07054a,black );
+	background-image: linear-gradient(145deg,#3502b8, #07054a,black );
 }
 
 .navbar{
@@ -134,5 +134,5 @@ footer{
 }
 .logo-rodape h1{
 	font-family: 'Lobster', cursive;
-	color: rgb(245, 196, 156);
+	color: #ff8578;
 }
