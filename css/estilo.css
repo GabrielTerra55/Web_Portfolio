@@ -130,9 +130,8 @@ footer{
 	text-align: center;
 }
 .logo-rodape{
-	color: rgb(245, 196, 156);
+	color: #ff8578;;
 }
 .logo-rodape h1{
 	font-family: 'Lobster', cursive;
-	color: #ff8578;
 }
