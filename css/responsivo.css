@@ -1,4 +1,4 @@
-@media screen and (max-width:1000px){      /* a baixo de 1005 o que vai acontecer*/
+@media screen and (max-width:1024px){   
 	.navbar{
 		position: relative;
 	}
@@ -16,6 +16,7 @@
 		margin-right: 5%;
 		text-align: center;
 	}
+	
 	.headline p{
 		text-align: center;
 	}
@@ -24,10 +25,58 @@
 		padding: 5%;
 		text-align: center;
 	}
-	.servicos{
-		padding: 5%;
-	}
 	.card{
 		width: 100%;
 	}
 }
+@media (max-width: 768px) {
+	body {
+	  font-size: 14px;
+	}
+  
+	.navbar {
+	  height: 80px;
+	}
+  
+	.logo {
+	  font-size: 30px;
+	}
+  
+	.headline {
+		display: none;
+	  } 
+
+  
+	.img-headline {
+	  margin-right: 0;
+	  flex: 100%;
+	}
+  
+	section {
+	  margin-top: 40px;
+	  padding: 2%;
+	}
+  
+	section h2 {
+	  font-size: 40px;
+	}
+  
+	.card {
+	  width: 100%;
+	  margin: 2% 0;
+	}
+  
+	.buttom {
+	  margin: 30px;
+	  height: 80px;
+	}
+  
+	footer {
+	  margin-top: 50px;
+	  height: 300px;
+	}
+  
+	.logo-rodape h1 {
+	  font-size: 30px;
+	}
+  }

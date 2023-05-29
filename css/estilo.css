@@ -13,20 +13,15 @@ body{
 
 .navbar{
 	height: 100px;
+	width: auto;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content:center;
 	align-items: center;
+	margin-bottom: 25px;
 }
 
 .logo{
-	flex:20%;
-	/* border: 1px solid red; */
-	/* margin-left: 0%; */
-	text-align: center;
-}
-
-.logo h1{
 	font-family: 'Lobster', cursive;
 	color: #ff8578;
 	font-size:45px;
@@ -39,7 +34,7 @@ body{
 	align-items: center;
 }
 .headline{
-	margin-left: 10%;            
+	margin-left: 10%;             
 	flex: 40%;
 }
 .headline p {
@@ -93,36 +88,25 @@ section h2{
 	border: 1px solid #5b5bcd;
 	border-radius: 10px;
 	cursor: default;
+	text-decoration: none;
 }
-
-/* .card-ocult {
-	display: none;
-	
-} */
-/* isso é diferente de 'visibility ocunto ou hidden pois fica uma lacuna*/
-/* 6:35:02 */
 .card:hover {
 	background-color: #5b5bcd;
 	color: white;
 	/* padding: 30px; */
 
 }
-/* .card:hover img{
-	display: none;
-} */
-/* .card:hover .card-text{               sem espaçamento sem funcionalidade
-	display: none;
-} */
-/* .card:hover .card-ocult{
-	display: block;
-	padding: 50px;
-} */
+
 .projects{
 	display: inline-block;
 	margin-top: 5%;
 }
+.project{
+	color: gray;
+	cursor: pointer;
+}
 .buttom {
-	margin: 100px;
+	margin: 50px;
 	height: 100px;
 }
 
@@ -142,11 +126,8 @@ section h2{
 
 footer{
 	margin-top: 70px;
-	height: 400px;
-	/* background-image: linear-gradient(180deg,#5b5bcd,#3b3b96,black ); */
+	height: 150px;
 	text-align: center;
-	/* border-top: 5px solid #5b5bcd; */
-
 }
 .logo-rodape{
 	color: rgb(245, 196, 156);
