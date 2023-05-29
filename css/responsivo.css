@@ -1,0 +1,33 @@
+@media screen and (max-width:1000px){      /* a baixo de 1005 o que vai acontecer*/
+	.navbar{
+		position: relative;
+	}
+	
+	.logo{
+		margin: 0;
+		text-align: center;
+	}
+	.header{
+		padding-top: 50px;
+
+	}
+	.headline{
+		flex: 100%;
+		margin-right: 5%;
+		text-align: center;
+	}
+	.headline p{
+		text-align: center;
+	}
+	.img-headline{
+		flex: 100%;
+		padding: 5%;
+		text-align: center;
+	}
+	.servicos{
+		padding: 5%;
+	}
+	.card{
+		width: 100%;
+	}
+}

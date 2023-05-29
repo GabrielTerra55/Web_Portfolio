@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	box-sizing: border-box;        /* O box-sizing com o valor border-box faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura. */
+}
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	/* background-color: #07054a; */
+	background-image: linear-gradient(135deg,#3502b8, #07054a,black );
+}
+
+.navbar{
+	height: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-items: center;
+}
+
+.logo{
+	flex:20%;
+	/* border: 1px solid red; */
+	/* margin-left: 0%; */
+	text-align: center;
+}
+
+.logo h1{
+	font-family: 'Lobster', cursive;
+	color: #ff8578;
+	font-size:45px;
+}
+.header{
+	height: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.headline{
+	margin-left: 10%;            
+	flex: 40%;
+}
+.headline p {
+	color: grey;
+	text-align: left;
+}
+.headline h2{
+	font-weight: 900;
+	font-size: 72px;
+	color: #ff8578;
+	padding: 0;
+	margin: 0;
+}
+.img-headline {
+	margin-right: 10%;
+	flex: 40%;
+	/* border: 1px solid deeppink; */
+	text-align: center;
+
+}
+section{
+	display: inline-block;
+	margin-top: 80px;
+	/* border: 1px solid black; */
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	text-align: center;
+	padding: 5%;
+	color: grey;
+}
+section h2{
+	width: 100%;
+	font-size: 50px;
+	margin: 0;
+	font-family:'Lobster', cursive;
+	font-weight: bold;
+	color:#ff8578;
+}
+
+.servicos{
+	display: inline-block;
+	margin-top: 5%;
+}
+
+.card{
+	display: inline-block;
+	width: 30%;
+	padding: 20px;
+	margin: 1%;
+	border: 1px solid #5b5bcd;
+	border-radius: 10px;
+	cursor: default;
+}
+
+/* .card-ocult {
+	display: none;
+	
+} */
+/* isso é diferente de 'visibility ocunto ou hidden pois fica uma lacuna*/
+/* 6:35:02 */
+.card:hover {
+	background-color: #5b5bcd;
+	color: white;
+	/* padding: 30px; */
+
+}
+/* .card:hover img{
+	display: none;
+} */
+/* .card:hover .card-text{               sem espaçamento sem funcionalidade
+	display: none;
+} */
+/* .card:hover .card-ocult{
+	display: block;
+	padding: 50px;
+} */
+.projects{
+	display: inline-block;
+	margin-top: 5%;
+}
+.buttom {
+	margin: 100px;
+	height: 100px;
+}
+
+.contact-btn {
+	background: #5b5bcd;
+	padding: 20px;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.contact-btn:hover {
+	background: #ff8578;
+}
+
+footer{
+	margin-top: 70px;
+	height: 400px;
+	/* background-image: linear-gradient(180deg,#5b5bcd,#3b3b96,black ); */
+	text-align: center;
+	/* border-top: 5px solid #5b5bcd; */
+
+}
+.logo-rodape{
+	color: rgb(245, 196, 156);
+}
+.logo-rodape h1{
+	font-family: 'Lobster', cursive;
+	color: rgb(245, 196, 156);
+}
